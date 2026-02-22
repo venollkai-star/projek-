@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Tebak Angka</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎯 GAME TEBAK ANGKA WAKK</h1>
+    <p>pilih angka dari 1 - 100 oi</p>
+    
+    <input type="number" id="inputAngka" placeholder="Masukkan tebakan...">
+    <br>
+    <button onclick="cekAngka()">Tebak</button>
+
+    <p id="pesan"></p>
+    <p id="percobaan"></p>
+
+    <div id="watermark" class="watermark">
+        game by: han dgaf!
+    </div>
+</div>
+
+<audio id="winSound" src="han.mp3"></audio>
+
+<script src="main.js"></script>
+</body>
+</html>
